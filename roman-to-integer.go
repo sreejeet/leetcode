@@ -25,9 +25,6 @@ func romanToInt(s string) int {
 		}
 		last = current
 	}
-	// for _, r := range s {
-	// print(i, " ", roman[r], "\n")
-	// }
 	return int(res)
 }
 
