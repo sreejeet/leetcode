@@ -5,33 +5,41 @@ import (
 )
 
 func strStr(haystack string, needle string) int {
-	if len(needle) == 0 {
+	if needle == "" {
 		return 0
 	}
 	if len(needle) > len(haystack) {
 		return -1
 	}
-	for i := 0; i < len(haystack); i++ {
-		if haystack[i] == needle[0] && len(haystack)-i >= len(needle) {
-			foundNeedle := true
-			for j := 0; j < len(needle) && j < len(haystack); j++ {
-				if needle[j] != haystack[i+j] {
-					foundNeedle = false
-					break
-				}
-			}
-			if foundNeedle {
-				return i
-			}
+	for i := range haystack {
+		if haystack[i] == needle[0] &&
+			len(haystack)-i >= len(needle) &&
+			haystack[i:i+len(needle)] == needle {
+			return i
 		}
 	}
 	return -1
 }
 
 func main() {
-	test := "233415"
+	test := "23345"
 	fmt.Printf("Testing: %v\n", test)
 	result := strStr(test, "1")
+	fmt.Printf("Yields : %v\n", result)
+
+	test = "1"
+	fmt.Printf("Testing: %v\n", test)
+	result = strStr(test, "1")
+	fmt.Printf("Yields : %v\n", result)
+
+	test = "231345"
+	fmt.Printf("Testing: %v\n", test)
+	result = strStr(test, "1")
+	fmt.Printf("Yields : %v\n", result)
+
+	test = "23345a"
+	fmt.Printf("Testing: %v\n", test)
+	result = strStr(test, "a")
 	fmt.Printf("Yields : %v\n", result)
 
 }
@@ -40,6 +48,29 @@ func main() {
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-
+		if len(needle) == 0 {
+			return 0
+		}
+		if len(needle) > len(haystack) {
+			return -1
+		}
+		for i := 0; i < len(haystack); i++ {
+			if haystack[i] == needle[0] && len(haystack)-i >= len(needle) {
+				foundNeedle := true
+				for j := 0; j < len(needle) && j < len(haystack); j++ {
+					if needle[j] != haystack[i+j] {
+						foundNeedle = false
+						break
+					}
+				}
+				if foundNeedle {
+					return i
+				}
+			}
+		}
+		return -1
+	}
     }
-};*/
+};
+
+}*/
