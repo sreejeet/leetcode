@@ -16,33 +16,36 @@ type ListNode struct {
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	head := l1
-	for ; l2 != nil; l1 = l1.Next {
-		sum := l1.Val + l2.Val
-		l2 = l2.Next
-		l1.Val = sum % 10
-		if sum > 9 {
-			if l1.Next == nil {
-				l1.Next = &ListNode{0, nil}
-			}
-			l1.Next.Val++
+	for ; l1 != nil; l1 = l1.Next {
+		if l2 != nil {
+			l1.Val += l2.Val
+			l2 = l2.Next
 		}
 		if l1.Next == nil {
 			l1.Next = l2
-			println("to...")
-			break
+			l2 = nil
 		}
-	}
-
-	for ; l1 != nil && l1.Val > 9; l1 = l1.Next {
-		println("next...")
-		l1.Val %= 10
-		if l1.Next == nil {
-			l1.Next = &ListNode{1, nil}
-			break
+		if l1.Val >= 10 {
+			l1.Val %= 10
+			if l1.Next == nil {
+				l1.Next = &ListNode{1, nil}
+				return head
+			}
+			l1.Next.Val++
 		}
-		l1.Next.Val++
 	}
 	return head
+}
+
+func main() {
+	test1 := &ListNode{9, nil}
+	test2 := &ListNode{9, nil}
+	printll(test1)
+	printll(test2)
+	result := addTwoNumbers(test1, test2)
+	printll(result)
+	println()
+	println()
 }
 
 func printll(list *ListNode) {
@@ -58,18 +61,6 @@ func printll(list *ListNode) {
 		list = list.Next
 	}
 	fmt.Println(str.String())
-}
-
-func main() {
-	test1 := &ListNode{0, nil}
-	test2 := &ListNode{7, &ListNode{3, nil}}
-	fmt.Printf("Testing: \n")
-	printll(test1)
-	printll(test2)
-	result := addTwoNumbers(test1, test2)
-	fmt.Printf("==========\n")
-	printll(result)
-	println()
 }
 
 /*
