@@ -40,15 +40,14 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 func main() {
 	test1 := &ListNode{9, nil}
 	test2 := &ListNode{9, nil}
-	printll(test1)
-	printll(test2)
+	test1.Print()
+	test2.Print()
 	result := addTwoNumbers(test1, test2)
-	printll(result)
-	println()
-	println()
+	result.Print()
 }
 
-func printll(list *ListNode) {
+// Print is a util func to print linked lists
+func (list *ListNode) Print() {
 	if list == nil {
 		fmt.Println()
 		return
