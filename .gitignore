@@ -1,3 +1,4 @@
+.vscode/
 go.go
 py.py
 !README.md
