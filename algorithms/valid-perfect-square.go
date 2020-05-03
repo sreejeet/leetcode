@@ -26,17 +26,3 @@ func main() {
 	result := isPerfectSquare(test)
 	println("OUT:", result)
 }
-
-/*
-0
-1
-2
-3
-123
-2345
-34567
-456789
-5678901
-67890123
-789012345
-*/
