@@ -1,4 +1,5 @@
 .vscode/
 go.go
 py.py
+*INPROGRESS*
 !README.md
