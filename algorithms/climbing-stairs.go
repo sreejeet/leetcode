@@ -8,7 +8,7 @@ import (
 // This problem can be solved using DP.
 // But I kept this permutation solution as this
 // is what came to my mind intuitively.
-~func climbStairs(n int) (result int) {
+func climbStairs(n int) (result int) {
 	result = 1
 	for twos := 1; twos <= n/2; twos++ {
 		ones := n - twos*2
