@@ -1,5 +1,6 @@
 .vscode/
 go.go
 py.py
+sql.sql
 *INPROGRESS*
 !README.md
