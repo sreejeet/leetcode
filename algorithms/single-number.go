@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-func singleNumber(nums []int) int {
-	num := 0
+func singleNumber(nums []int) (num int) {
 	for _, v := range nums {
 		num ^= v
 	}
-	return num
+	return
 }
 
 func main() {
