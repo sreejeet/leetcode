@@ -3,7 +3,7 @@
 
 <h4>I do this to...</h4>
 <ol>
-<li>Understand concepts</li>
+<li>Understand data structure and algorithm concepts</li>
 <li>Understand the core workings of a language (typing, internal data handeling)</li>
 <li>Learn quick and smart ways to make parts of a giant codebase fast and efficient.</li>
 </ol>
