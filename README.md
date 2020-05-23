@@ -1,7 +1,6 @@
 # LeetCode solutions
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' | sed 7,27d | sed 69,79d >> README.md -->
 <h4>Its not much, but its honest work.</h4>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,10 +64,9 @@
 	├── <a href="/shell/">shell</a><br>
 	│   ├── <a href="/shell/valid-phone-numbers.sh">valid-phone-numbers.sh</a><br>
 	│   └── <a href="/shell/tenth-line.sh">tenth-line.sh</a><br>
-	├── <a href="/DIRECTORY.md">DIRECTORY.md</a><br>
 	└── <a href="/README.md">README.md</a><br>
 	<br><br>
 	</p>
 	<p>
-</body>
+
 </html>
