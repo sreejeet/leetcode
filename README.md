@@ -12,6 +12,7 @@
 	<h1>Directory Tree</h1><p>
 	<a href=""></a><br>
 	├── <a href="/algorithms/">algorithms</a><br>
+	│   ├── <a href="/algorithms/invert-binary-tree.go">invert-binary-tree.go</a><br>
 	│   ├── <a href="/algorithms/sort-colors.go">sort-colors.go</a><br>
 	│   ├── <a href="/algorithms/remove-nth-node-from-end-of-list.go">remove-nth-node-from-end-of-list.go</a><br>
 	│   ├── <a href="/algorithms/reverse-linked-list.go">reverse-linked-list.go</a><br>
@@ -68,6 +69,6 @@
 	└── <a href="/README.md">README.md</a><br>
 	<br><br>
 	</p>
-	<p>
+	</p>
 </body>
 </html>
