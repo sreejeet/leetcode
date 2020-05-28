@@ -2,15 +2,10 @@
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' | sed 7,27d | sed 69,79d >> README.md -->
 <h4>Its not much, but its honest work.</h4><!DOCTYPE html>
 <html>
-<head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <meta name="Author" content="Made by 'tree'">
- <meta name="GENERATOR" content="$Version: $ tree v1.7.0 (c) 1996 - 2014 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
-</head>
 <body>
-	<h1>Directory Tree</h1><p>
 	<a href=""></a><br>
 	├── <a href="/algorithms/">algorithms</a><br>
+	│   ├── <a href="/algorithms/move-zeroes.go">move-zeroes.go</a><br>
 	│   ├── <a href="/algorithms/palindrome-linked-list.go">palindrome-linked-list.go</a><br>
 	│   ├── <a href="/algorithms/invert-binary-tree.go">invert-binary-tree.go</a><br>
 	│   ├── <a href="/algorithms/sort-colors.go">sort-colors.go</a><br>
