@@ -1,6 +1,6 @@
 # LeetCode solutions
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' | sed 7,27d | sed 69,79d >> README.md -->
-<h4>Its not much, but its honest work.</h4><!DOCTYPE html>
+<h4>It's not much, but it's honest work.</h4><!DOCTYPE html>
 <html>
 <body>
 	<a href=""></a><br>
