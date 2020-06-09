@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/sreejeet/leetcode)](https://goreportcard.com/report/github.com/sreejeet/leetcode)
+
 # LeetCode solutions
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' | sed 7,27d | sed 69,79d >> README.md -->
 <h4>It's not much, but it's honest work.</h4><!DOCTYPE html>
