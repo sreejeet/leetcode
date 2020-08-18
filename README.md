@@ -1,17 +1,10 @@
 ## LeetCode solutions
+
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' -->
 <h4>It's not much, but it's honest work.</h4>
 <a href=""></a><br>
-├── <a href="/database/">database</a><br>
-│   ├── <a href="/database/second-highest-salary.sql">second-highest-salary.sql</a><br>
-│   └── <a href="/database/combine-two-tables.sql">combine-two-tables.sql</a><br>
-├── <a href="/shell/">shell</a><br>
-│   ├── <a href="/shell/valid-phone-numbers.sh">valid-phone-numbers.sh</a><br>
-│   └── <a href="/shell/tenth-line.sh">tenth-line.sh</a><br>
-├── <a href="/concurrency/">concurrency</a><br>
-│   ├── <a href="/concurrency/print-foobar-alternately.py">print-foobar-alternately.py</a><br>
-│   └── <a href="/concurrency/print-in-order.py">print-in-order.py</a><br>
 ├── <a href="/algorithms/">algorithms</a><br>
+│   ├── <a href="/algorithms/insert-into-a-binary-search-tree.py">insert-into-a-binary-search-tree.py</a><br>
 │   ├── <a href="/algorithms/move-zeroes.go">move-zeroes.go</a><br>
 │   ├── <a href="/algorithms/palindrome-linked-list.go">palindrome-linked-list.go</a><br>
 │   ├── <a href="/algorithms/invert-binary-tree.go">invert-binary-tree.go</a><br>
@@ -60,4 +53,13 @@
 │   ├── <a href="/algorithms/length-of-last-word.go">length-of-last-word.go</a><br>
 │   ├── <a href="/algorithms/implement-strstr.go">implement-strstr.go</a><br>
 │   └── <a href="/algorithms/count-and-say.go">count-and-say.go</a><br>
-└── <a href="/README.md">README.md</a>
+├── <a href="/database/">database</a><br>
+│   ├── <a href="/database/second-highest-salary.sql">second-highest-salary.sql</a><br>
+│   └── <a href="/database/combine-two-tables.sql">combine-two-tables.sql</a><br>
+├── <a href="/shell/">shell</a><br>
+│   ├── <a href="/shell/valid-phone-numbers.sh">valid-phone-numbers.sh</a><br>
+│   └── <a href="/shell/tenth-line.sh">tenth-line.sh</a><br>
+├── <a href="/concurrency/">concurrency</a><br>
+│   ├── <a href="/concurrency/print-foobar-alternately.py">print-foobar-alternately.py</a><br>
+│   └── <a href="/concurrency/print-in-order.py">print-in-order.py</a><br>
+└── <a href="/README.md">README.md</a><br>
