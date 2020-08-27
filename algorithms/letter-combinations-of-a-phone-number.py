@@ -16,7 +16,7 @@ class Solution:
 
         alphas = [keypad[int(x)] for x in digits]
 
-        def r(ans="", chars_i=0):
+        def __recur__(ans="", chars_i=0):
             chars = alphas[chars_i] if chars_i < max_l else []
             nex = alphas[chars_i+1] if chars_i+1 < max_l else []
             if nex == []:
@@ -26,5 +26,5 @@ class Solution:
                 for c in chars:
                     r(ans+c, chars_i+1)
 
-        r()
+        __recur__()
         return ans_list
