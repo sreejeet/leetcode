@@ -4,6 +4,7 @@
 <h4>It's not much, but it's honest work.</h4>
 <a href=""></a><br>
 ├── <a href="/database/">database</a><br>
+│   ├── <a href="/database/delete-duplicate-emails.sql">delete-duplicate-emails.sql</a><br>
 │   ├── <a href="/database/employees-earning-more-than-their-managers.sql">employees-earning-more-than-their-managers.sql</a><br>
 │   ├── <a href="/database/second-highest-salary.sql">second-highest-salary.sql</a><br>
 │   └── <a href="/database/combine-two-tables.sql">combine-two-tables.sql</a><br>
@@ -65,4 +66,5 @@
 │   └── <a href="/shell/tenth-line.sh">tenth-line.sh</a><br>
 ├── <a href="/concurrency/">concurrency</a><br>
 │   ├── <a href="/concurrency/print-foobar-alternately.py">print-foobar-alternately.py</a><br>
-│   └── <a href="/concurrency/print-in-order.py">print-in-order.py</a>
+│   └── <a href="/concurrency/print-in-order.py">print-in-order.py</a><br>
+└── <a href="/README.md">README.md</a>
