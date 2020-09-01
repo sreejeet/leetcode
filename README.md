@@ -3,6 +3,7 @@
 <!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' -->
 <h4>It's not much, but it's honest work.</h4>
 ├── <a href="/database/">database</a><br>
+│   ├── <a href="/database/duplicate-emails.sql">duplicate-emails.sql</a><br>
 │   ├── <a href="/database/nth-highest-salary.sql">nth-highest-salary.sql</a><br>
 │   ├── <a href="/database/delete-duplicate-emails.sql">delete-duplicate-emails.sql</a><br>
 │   ├── <a href="/database/employees-earning-more-than-their-managers.sql">employees-earning-more-than-their-managers.sql</a><br>
