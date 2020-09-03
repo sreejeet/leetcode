@@ -1,8 +1,11 @@
 ## LeetCode solutions
 
-<!-- tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH '' -->
+<!--
+tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH ''
+-->
 <h4>It's not much, but it's honest work.</h4>
 ├── <a href="/algorithms/">algorithms</a><br>
+│   ├── <a href="/algorithms/minimum-depth-of-binary-tree.py">minimum-depth-of-binary-tree.py</a><br>
 │   ├── <a href="/algorithms/binary-tree-level-order-traversal.py">binary-tree-level-order-traversal.py</a><br>
 │   ├── <a href="/algorithms/minimum-distance-between-bst-nodes.py">minimum-distance-between-bst-nodes.py</a><br>
 │   ├── <a href="/algorithms/binary-tree-inorder-traversal.py">binary-tree-inorder-traversal.py</a><br>
