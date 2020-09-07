@@ -4,6 +4,15 @@
 tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH ''
 -->
 <h4>It's not much, but it's honest work.</h4>
+├── <a href="/database/">database</a><br>
+│   ├── <a href="/database/rising-temperature.sql">rising-temperature.sql</a><br>
+│   ├── <a href="/database/customers-who-never-order.sql">customers-who-never-order.sql</a><br>
+│   ├── <a href="/database/duplicate-emails.sql">duplicate-emails.sql</a><br>
+│   ├── <a href="/database/nth-highest-salary.sql">nth-highest-salary.sql</a><br>
+│   ├── <a href="/database/delete-duplicate-emails.sql">delete-duplicate-emails.sql</a><br>
+│   ├── <a href="/database/employees-earning-more-than-their-managers.sql">employees-earning-more-than-their-managers.sql</a><br>
+│   ├── <a href="/database/second-highest-salary.sql">second-highest-salary.sql</a><br>
+│   └── <a href="/database/combine-two-tables.sql">combine-two-tables.sql</a><br>
 ├── <a href="/algorithms/">algorithms</a><br>
 │   ├── <a href="/algorithms/minimum-depth-of-binary-tree.py">minimum-depth-of-binary-tree.py</a><br>
 │   ├── <a href="/algorithms/binary-tree-level-order-traversal.py">binary-tree-level-order-traversal.py</a><br>
@@ -61,14 +70,6 @@ tree --dirsfirst -I 'go\.go|py.py|sql.sql' -trH ''
 │   ├── <a href="/algorithms/length-of-last-word.go">length-of-last-word.go</a><br>
 │   ├── <a href="/algorithms/implement-strstr.go">implement-strstr.go</a><br>
 │   └── <a href="/algorithms/count-and-say.go">count-and-say.go</a><br>
-├── <a href="/database/">database</a><br>
-│   ├── <a href="/database/customers-who-never-order.sql">customers-who-never-order.sql</a><br>
-│   ├── <a href="/database/duplicate-emails.sql">duplicate-emails.sql</a><br>
-│   ├── <a href="/database/nth-highest-salary.sql">nth-highest-salary.sql</a><br>
-│   ├── <a href="/database/delete-duplicate-emails.sql">delete-duplicate-emails.sql</a><br>
-│   ├── <a href="/database/employees-earning-more-than-their-managers.sql">employees-earning-more-than-their-managers.sql</a><br>
-│   ├── <a href="/database/second-highest-salary.sql">second-highest-salary.sql</a><br>
-│   └── <a href="/database/combine-two-tables.sql">combine-two-tables.sql</a><br>
 ├── <a href="/shell/">shell</a><br>
 │   ├── <a href="/shell/valid-phone-numbers.sh">valid-phone-numbers.sh</a><br>
 │   └── <a href="/shell/tenth-line.sh">tenth-line.sh</a><br>
